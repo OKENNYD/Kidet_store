@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.scroll::-webkit-scrollbar-track{
+    display: none;
+}
+.scroll::-webkit-scrollbar-thumb{
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    /* For small devices */
+    .sm-width{
+        width: 100%;
+    }
+    .sm-none {
+      display: none;
+    }
+    .sm-show {
+        display: block;
+      }
+    .sm-img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .sm-btn{
+        width: 32px;
+        height: 32px;
+        padding: 0;
+    }
+    .sm-pad{
+        padding: 0px ;
+    }
+    .sm-gap{
+        gap: 4px;
+        padding-left: 8px;
+    }
+    .sm-inp{
+        padding: 0;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    /* For medium devices */
+    .md-width{
+        width: 100%;
+    }
+    .md-none {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    /* For large devices */
+    .lg-none {
+        display: none;
+    }
+}
+
+.scrl::-webkit-scrollbar{
+    background-color: transparent;
+    border-radius: 50px;
+    width: 7px;
+} 
+
